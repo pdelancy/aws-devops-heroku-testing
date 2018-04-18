@@ -1,2 +1,6 @@
 language: node_js
 node_js: "8.9"
+deploy:
+  provider: heroku
+  api_key: 7d686a01-a988-4f53-8e41-de4e394034f9
+  app: vast-ridge-41053
